@@ -4,12 +4,12 @@
     <parent>
         <groupId>org.microprofile-ext</groupId>
         <artifactId>restclient-ext</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1-SNAPSHOT</version>
     </parent>
     
     <groupId>org.microprofile-ext.restclient-ext</groupId>
     <artifactId>configurable-errorresponse-handler</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
     
     <name>Microprofile REST Client Extensions :: Configurable Error Response Handler</name>
