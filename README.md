@@ -1,6 +1,3 @@
-# restclient-ext
-Configurable HTTP code to exception mapper
-
 # REST Client Extensions
 
 [![build_status](https://travis-ci.com/microprofile-extensions/restclient-ext.svg?branch=master)](https://travis-ci.com/microprofile-extensions/restclient-ext)
