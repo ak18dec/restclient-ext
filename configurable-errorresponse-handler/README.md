@@ -39,7 +39,7 @@ Example:
     public interface MembershipProxy {
 
         @GET @Path("/{id}") @Operation(hidden = true)
-        public Membership getMembership(@HeaderParam("Authorization") String authorization, @NotNull @PathParam(value = "id") int id);
+        public Membership getMembership(@NotNull @PathParam(value = "id") int id);
      }
 
 ```
