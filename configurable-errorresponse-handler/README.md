@@ -15,8 +15,32 @@ In ```pom.xml```:
         <groupId>org.microprofile-ext.restclient-ext</groupId>
         <artifactId>configurable-errorresponse-handler</artifactId>
         <version>XXXXX</version>
-        <scope>runtime</scope>
     </dependency>
+
+```
+
+In your Microprofile ```rest client```
+
+```java
+
+    @RegisterProvider(RuntimeResponseExceptionMapper.class)
+
+```
+
+Example:
+
+```java
+
+    @RequestScoped
+    @RegisterRestClient
+    @Consumes(MediaType.APPLICATION_JSON) @Produces(MediaType.APPLICATION_JSON)
+    @RegisterProvider(RuntimeResponseExceptionMapper.class)
+    @Path("/api")
+    public interface MembershipProxy {
+
+        @GET @Path("/{id}") @Operation(hidden = true)
+        public Membership getMembership(@HeaderParam("Authorization") String authorization, @NotNull @PathParam(value = "id") int id);
+     }
 
 ```
 
