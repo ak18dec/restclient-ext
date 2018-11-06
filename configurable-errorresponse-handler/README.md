@@ -1,4 +1,6 @@
-# REST Client Extensions | Configurable Error Response Handler
+[Back to restclient-ext](https://github.com/microprofile-extensions/restclient-ext/blob/master/README.md)
+
+# Configurable Error Response Handler
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.microprofile-ext.jaxrs-ext/configurable-exception-handler/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.microprofile-ext.jaxrs-ext/configurable-exception-handler)
 [![Javadocs](https://www.javadoc.io/badge/org.microprofile-ext.jaxrs-ext/configurable-exception-handler.svg)](https://www.javadoc.io/doc/org.microprofile-ext.jaxrs-ext/configurable-exception-handler)
