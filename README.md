@@ -5,4 +5,4 @@
 ___________
 Here you will find some extensions for REST Client:
 
-* [Configurable Error Response Handler](https://github.com/microprofile-extensions/restclient-ext/tree/master/configurable-errorresponse-handler)
+* [Configurable Error Response Handler](https://github.com/microprofile-extensions/restclient-ext/blob/master/configurable-errorresponse-handler/README.md)
